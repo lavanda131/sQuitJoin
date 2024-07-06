@@ -17,7 +17,7 @@ messages:
  joinHoverText: "%player% вошел на сервер"
  quitHoverText: "%player% покинул игру"
  successfullyreload:
-   - '&a[sQuitJoin] &fУспешная перезагрузка &e%mc%&7mc'
+   - '&a[sQuitJoin] &fУспешная перезагрузка плагина&e%mc%&7mc'
  nopermission:
    - '&a[sQuitJoin] &4У вас нет прав на перезагрузку плагина.'
 
