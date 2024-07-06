@@ -1,0 +1,17 @@
+# Если true то кастомные сообещния работают
+# Если false то включаются страндартные
+enableJoinQuit: true
+# Если true то отключаются все сообщения
+# Если кастомные сообщения true, то они будут в приоретете, если же false то стандартные будут в приоретете.
+disableDefaultJoinQuit: false
+joinMessage: '&8[&a+&8] &f%player%'
+quitMessage: '&8[&4-&8] &f%player%'
+# Все звуки https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+joinSound: 'ENTITY_PLAYER_LEVELUP'
+# Изменить тон звука.
+joinPitch: 1.0
+successfullyreload:
+  - 'Успешная перезагрузка %mc%'
+nopermission:
+  - 'у вас нет прав'
+
