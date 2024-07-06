@@ -1,17 +1,23 @@
 # Если true то кастомные сообещния работают
 # Если false то включаются страндартные
 enableJoinQuit: true
-# Если true то отключаются все сообщения
-# Если кастомные сообщения true, то они будут в приоретете, если же false то стандартные будут в приоретете.
+# Если true, то стандартные сообщения будут отключены.
+# Если false, то стандартные сообщения будут включены.
 disableDefaultJoinQuit: false
-joinMessage: '&8[&a+&8] &f%player%'
-quitMessage: '&8[&4-&8] &f%player%'
-# Все звуки https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
-joinSound: 'ENTITY_PLAYER_LEVELUP'
-# Изменить тон звука.
-joinPitch: 1.0
-successfullyreload:
-  - '&a[sQuitJoin] &fУспешная перезагрузка &e%mc%&7mc'
-nopermission:
-  - '&a[sQuitJoin] &4У вас нет прав на перезагрузку плагина.'
+
+sounds:
+ # Все звуки https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+ joinSound: 'ENTITY_PLAYER_LEVELUP'
+ # Изменить тон звука.
+ joinPitch: 1.0
+
+messages:
+ joinMessage: '&8[&a+&8] &f%player%'
+ quitMessage: '&8[&4-&8] &f%player%'
+ joinHoverText: "%player% вошел на сервер"
+ quitHoverText: "%player% покинул игру"
+ successfullyreload:
+   - '&a[sQuitJoin] &fУспешная перезагрузка &e%mc%&7mc'
+ nopermission:
+   - '&a[sQuitJoin] &4У вас нет прав на перезагрузку плагина.'
 
