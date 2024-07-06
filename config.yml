@@ -4,6 +4,10 @@ enableJoinQuit: true
 # Если true, то стандартные сообщения будут отключены.
 # Если false, то стандартные сообщения будут включены.
 disableDefaultJoinQuit: false
+# Если true, то Hover тексты будут работать.
+# Если false, то Hover тексты не будут работать.
+# Hover текст появляется при на воде курсором на кастомный текст входа и выхода.
+enableHoverText: true
 
 sounds:
  # Все звуки https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
