@@ -1,17 +1,19 @@
-# Если true то кастомные сообещния работают
-# Если false то включаются страндартные
+# Конфиг на русском языке: https://github.com/snezhok69/sQuitJoin/tree/main
+
+# If true, custom promises work
+# If false, then the standard ones are enabled
 enableJoinQuit: true
-# Если true то отключаются все сообщения
-# Если кастомные сообщения true, то они будут в приоретете, если же false то стандартные будут в приоретете.
+# If true, all messages are disabled
+# If the custom messages are true, then they will be in priority, if false, then the standard ones will be in priority.
 disableDefaultJoinQuit: false
 joinMessage: '&8[&a+&8] &f%player%'
 quitMessage: '&8[&4-&8] &f%player%'
-# Все звуки https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+# All sounds https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
 joinSound: 'ENTITY_PLAYER_LEVELUP'
-# Изменить тон звука.
+# Change the tone of the sound.
 joinPitch: 1.0
 successfullyreload:
-  - 'Успешная перезагрузка %mc%'
+  - '&a[sQuitJoin] &fУспешная перезагрузка &e%mc%&7mc'
 nopermission:
-  - 'у вас нет прав'
+  - '&a[sQuitJoin] &4У вас нет прав на перезагрузку плагина.'
 
